@@ -27,7 +27,7 @@ class Net(nn.Module):
 
 # Load the saved model
 model = Net()
-model.load_state_dict(torch.load('mnist_model_v1.pth'))
+model.load_state_dict(torch.load('mnist_model.pth'))
 model.eval()
 
 
